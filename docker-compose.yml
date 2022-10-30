@@ -1,8 +1,8 @@
 version: '3.1'
 
 services:
-  backend:
-    container_name: directus
+  lystak-backend:
+    container_name: lystak-backend
     image: directus/directus:latest
     ports:
       - 3201:8055
@@ -36,7 +36,7 @@ services:
       # (see https://docs.directus.io/self-hosted/config-options#general)
       PUBLIC_URL: 'http://localhost:3201'
 
-  frontend:
+  lystak-frontend:
     image: node:slim
     container_name: lystak-frontend
     restart: always

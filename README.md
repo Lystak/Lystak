@@ -8,6 +8,23 @@ Requirements:
 - Make
 - Docker with docker-compose
 
+### Install dependencies
+
+```bash
+make init
+```
+
+### Run dev server
+
+```bash
+docker-compose up
+```
+
+### Dev server URL
+
+- [front](http://localhost:3200/)
+- [admin](http://localhost:3201/)
+
 ## License
 
 Copyright (C) 2022 Damien and Daniel Doussaud

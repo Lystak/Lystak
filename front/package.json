@@ -2,7 +2,7 @@
   "name": "lystak-frontend",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite --host",
+    "dev": "vite --host --port 3200",
     "build": "run-p type-check build-only",
     "preview": "vite preview",
     "test:e2e": "start-server-and-test preview :4173 'cypress run --e2e'",

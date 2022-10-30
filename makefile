@@ -17,3 +17,6 @@ init:
 	-u "node" \
 	node\:slim \
 	npm install
+
+run:
+	docker-compose up

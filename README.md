@@ -17,7 +17,7 @@ make init
 ### Run dev server
 
 ```bash
-docker-compose up
+make run
 ```
 
 ### Dev server URL

@@ -18,7 +18,7 @@ const submit = (event: Event) => {
 
     <div class="absolute top-0 left-0 w-full h-full bg-no-repeat bg-cover bg-center opacity-20" style="background-image: url(https://unsplash.com/photos/RLw-UC03Gwc/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MXx8dG9kb3xlbnwwfHx8fDE2NjcyMjU2Nzk&force=true&w=2400)"></div>
 
-    <div class="card w-96 bg-base-200 shadow-xl m-10">
+    <div class="card w-96 bg-base-200 shadow-xl m-1 sm:m-10">
       <form class="card-body" @submit="submit">
         <h2 class="card-title">Lystak</h2>
         <p>If a dog chews shoes whose shoes does he choose?</p>

@@ -37,10 +37,10 @@ const lists = ref([{
       </div>
     </div>
 
-    <ul class="fixed left-0 right-0 bottom-0 justify-between flex gap-1 m-5">
+    <ul class="fixed left-0 right-0 bottom-0 justify-center flex gap-5 m-5">
       <li>
         <div class="indicator">
-          <span class="indicator-item badge badge-accent">99+</span> 
+          <span class="indicator-item badge badge-accent">9</span> 
           <a class="btn btn-primary">Invitations</a>
         </div>
       </li>

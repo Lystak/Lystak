@@ -17,4 +17,5 @@ init:
 	npm install
 
 run:
+	python3 -m webbrowser http://localhost:3200/
 	docker-compose up

@@ -18,7 +18,7 @@ const router = createRouter({
     },
     {
       // Display a list with all its items
-      path: "/list/:listID/edit?",
+      path: "/list/:listID/:edit?",
       name: RouteName.List,
       component: () => import("../views/ListView.vue"),
     },
